@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.carrossel {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    overflow: hidden; /* Adicionado para ocultar os cards além do visível */
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+}
+
+.botao-esquerda,
+.botao-direita {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botao-esquerda:hover,
+.botao-direita:hover {
+    background-color: #0056b3;
+}
